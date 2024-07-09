@@ -1,5 +1,3 @@
-# chatbot_RAG_Milvus_vector_db
-
 # Chatbot RAG with Milvus and Streamlit
 
 ## Description

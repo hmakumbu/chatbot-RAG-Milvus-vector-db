@@ -16,7 +16,7 @@ cd <your-repository>
 poetry install
 ```
 
-install docker and milvus via this [link](https://milvus.io/docs/install_standalone-docker.md)
+For Docker and Milvus installation, refer to this [link](https://milvus.io/docs/install_standalone-docker.md)
 
 ## Configuration
 Make sure to create a `.env` file containing the necessary environment variables.

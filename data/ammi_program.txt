@@ -1,0 +1,144 @@
+---
+
+### African Master's in Machine Intelligence (AMMI)
+
+#### Program Overview
+The African Master's in Machine Intelligence (AMMI) is a flagship program in Machine Learning in Africa. It aims to train experts in AI and create a network of researchers and professionals, with support from technology companies such as Facebook and Google. The program emphasizes both theoretical and practical modules to provide high-quality education to a diverse cohort of students.
+
+AMMI is a new, fully-funded intensive one-year study program that offers advanced training in machine learning and its applications to bright young Africans. Founded by Moustapha Cissé, Head of the Google AI Center in Accra, Ghana, AMMI aims to bring world-class AI education to Africa and foster a robust ecosystem of AI practitioners committed to making a positive societal impact.
+
+In September 2018, the African Masters of Machine Intelligence (AMMI) was launched at the African Institute for Mathematical Sciences (AIMS) with the generous sponsorship of Facebook and Google, along with strong support from the global AI community. Initially implemented at AIMS Rwanda and AIMS Ghana, AMMI has expanded to AIMS Senegal, welcoming its inaugural cohort of 39 students (including 33% women) in January 2021.
+
+#### Program Objectives
+- **Train African Experts in AI:** Contribute to the technological development of the African continent.
+- **Promote AI Research:** Highlight applications of AI in various fields such as health, agriculture, and energy.
+- **Create a Network:** Establish an active community in AI across Africa.
+- **Excellence in Education:** AMMI provides rigorous training in machine learning, natural language processing, computer vision, robotics, and AI ethics.
+- **Societal Impact:** Graduates are equipped to address current and future challenges in Africa and beyond through innovative AI solutions.
+
+
+#### Curriculum
+- **Courses:** Machine learning, natural language processing, computer vision, robotics, and AI ethics.
+- **Modules:** Combine theoretical teachings with practical work to strengthen students' skills.
+
+#### our lecturers
+
+AMMI's curriculum combines theoretical knowledge with practical applications, delivered by world-renowned experts in AI:
+- **Moustapha Cissé:** Founder of AMMI, Head of Google AI Center in Accra.
+- **Antoine Bordes:** Facebook AI Research (FAIR).
+- **Olivier Bousquet:** Google AI.
+- **Yoshua Bengio:** Mila/University of Montreal.
+- **Yann LeCun:** Facebook AI Research (FAIR)/New York University.
+- **Hugo Larochelle:** Google AI.
+- **Laurens van der Maaten:** Facebook AI Research (FAIR).
+
+#### Duration
+- **One Year:** The program is designed to be completed in one academic year.
+
+#### Partnerships
+- **Support from Tech Companies:** Facebook and Google offer internships, lectures, and workshops.
+- **Resources and Collaborations:** Access to cutting-edge research resources and international collaborations.
+
+#### Opportunities and Support
+- **Networking and Mentorship:** Professional development and mentorship opportunities.
+- **Full Scholarship:** Includes meals, transportation, health insurance, stipend, and housing at Km 2 route de Joal (Centre IRD Mbour) in Mbour, Senegal, sponsored by Facebook and Google.
+- **Internships and Career Development:** AMMI alumni have successfully interned at MILA, IVADO, Vector Institute, Qualcomm, Google, and Facebook, among others.
+- **Networking:** Students build valuable connections through workshops and industry events.
+
+#### Student Selection
+- **Criteria:** Highly competitive, selecting students with an excellent academic background in mathematics, computer science, or related fields.
+
+#### Additional Information
+- **Flagship Program:** Delivered by world-class lecturers and experts in Machine Learning.
+- **Career Opportunities:** Alumni have interned at MILA, IVADO, Vector Institute, Qualcomm, Google, Facebook, among others.
+- **Full Scholarship:** Covers meals, transportation, health insurance, stipend, and housing at Km 2 route de Joal (Centre IRD Mbour) in Mbour, Senegal, thanks to sponsors Facebook and Google.
+- **Community Building:** Encourages building strong ties with peers based on academic excellence and intellectual growth, contributing to the future of machine learning in Africa.
+
+#### Leadership
+- **Moustapha Cissé, Ph.D:** Founder and Director of AMMI, leading AI research efforts at Google AI Center, Accra.
+- **Teta Bahunde:** Program Manager, ensuring AMMI's objectives are met and promoting program efficiency.
+
+#### Contact Information
+For more information about AMMI, visit [aimsammi.org](https://aimsammi.org) or contact the program managers:
+
+- **Moustapha Cissé:** [mcisse@aimsammi.org](mailto:mcisse@aimsammi.org)
+- **Teta Bahunde:** [tbahunde@aimsammi.org](mailto:tbahunde@aimsammi.org)
+
+### Code of Conduct
+
+**Preamble:**
+Welcome to AIMS Senegal! AIMS Senegal offers a pleasant, safe, clean, respectful, and collaborative environment. To maintain this discipline and enabling learning environment, adherence to the Code of Conduct is mandatory.
+
+**Basic Rules:**
+- **Non-Discrimination:** Embrace a diversity of nationalities, religious affiliations, gender, and individual preferences.
+- **Substance-Free Environment:** Possession, consumption, and distribution of drugs are prohibited.
+- **Respect:** Respect for self, others, and others' property is mandatory.
+- **Prohibited Actions:** Theft, vandalism, and violence are not allowed.
+
+**Safety:**
+- **Fire Safety:** Fire extinguishers are installed throughout the facility.
+- **Evacuation Drills:** Regular evacuation drills and clearly marked exits.
+- **Prohibited Items:** Lighters, matches, and candles are not allowed.
+- **Water Conservation:** Turn off all faucets when not in use.
+- **Security:** Security guards are available 24/7; remain vigilant and report any incidents.
+- **Cooking:** Only in-house kitchen apparatus is permitted.
+- **Identification:** Carry ID cards at all times.
+
+**Respectful Behaviour:**
+- **No Harassment:** Physical, verbal, written, or sexual harassment is prohibited.
+- **Honesty:** Avoid slanderous or dishonest statements.
+- **Professional Boundaries:** No sexual behavior with lecturers, tutors, or staff.
+- **Room Assignment:** Respect room assignments and opposite-sex visitation rules.
+- **Silent Mode:** Keep cell phones silent in lecture halls, computer labs, administration blocks, and libraries.
+
+**Visitors:**
+- **Approval Needed:** Visitors must be approved by the Administration team and sign in/out with ID.
+- **Responsibility:** Students are responsible for their visitors' behavior.
+- **Restricted Areas:** Visitors are not allowed in residential blocks.
+
+**Academic Rules:**
+- **No Cheating:** Unauthorized assistance on assignments, tests, and research projects is prohibited.
+- **No Falsification:** Forging AIMS documents for fraudulent purposes is prohibited.
+- **No Plagiarism:** Properly cite ideas or statements from others.
+- **Material Sharing:** Sharing course recordings, notes, or other materials is prohibited.
+- **Attendance:** 100% attendance required; dropping out disqualifies career offers.
+- **Research Work:** No campus requirement for final research work.
+- **Graduation Date:** The date on which final transcripts and certificates are received.
+- **Processing Time:** Requests for registration proof or transcripts/certificates take 2 weeks.
+
+**Residence Rules:**
+- **Integrity and Respect:** Exhibit discipline and courtesy; handle facilities with care.
+- **Room Assignment:** Adhere to room assignments; report any damages.
+- **Cleanliness:** Keep common areas clean.
+- **No Attachments:** Do not attach pictures or material to walls.
+- **Respect Neighbors:** Maintain good relations with neighbors.
+- **Music:** Permitted if it does not disturb others.
+
+**Housekeeping Rules:**
+- **Respect Service Providers:** Treat security, catering, and cleaning teams with respect.
+- **Cleanliness:** Keep washrooms, showers, cafeteria, collaborative spaces, and computer labs clean.
+
+**Travel:**
+- **Round Trip Ticket:** Provided for students joining the program.
+- **Internship or Job:** Students are responsible for return travel if they secure opportunities or drop out.
+- **Career Opportunity:** Program may redirect return flights for career opportunities.
+- **Travel Requests:** Must be submitted two weeks before the planned date.
+
+**Computer Hardware and Equipment:**
+- **Authorized Use:** Only for students, tutors, lecturers, staff, and official visitors.
+- **Prohibited Activities:** Viewing, downloading, or printing offensive images is prohibited.
+- **Assigned Equipment:** One computer per student; no exchanges allowed.
+- **Commercial Use:** Not permitted.
+- **Return of Equipment:** Required if dropping out.
+- **Library Conduct:** Handle books with care; do not remove books from the library.
+- **Office Equipment:** Use only by AIMS staff and official visitors.
+
+**Disciplinary Committee:**
+- **Composition:** Includes the Academic Director, Facilities and Logistics Manager, Chief Operating Officer, and two student representatives.
+- **Procedure:** Investigates violations and suggests disciplinary measures.
+- **Consequences:** Misconduct may result in warnings or termination of enrollment.
+
+**Contention Management:**
+- **Reporting Issues:** Academic grievances should be reported to the Academic Director; other issues to the Facilities and Logistics Manager/Chief of Operations.
+- **No Demonstrations:** AIMS is a strike-free learning place; complaints must be expressed and addressed openly.
+

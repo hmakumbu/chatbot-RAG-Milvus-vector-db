@@ -1,71 +1,163 @@
 import streamlit as st
 from ChatBot1.chatbot import ChatBot
-import os
+#from ChatBot1.load import load
 from dotenv import load_dotenv
+import os
 
+# Load environment variables from .env file
 load_dotenv()
-DATA_PATH = os.getenv("DATAPATH")
 
-# Fonction principale de l'application
+# Get environment variables
+DATAPATH = os.getenv("DATAPATH")
+FOLDER_PATH = os.getenv("FOLDER_PATH")
+LOGO_PATH = os.path.join(DATAPATH, "aims-logo.png")
+UPLOAD_DIRECTORY = os.path.join(FOLDER_PATH, "tempDir")
+
+# Create the upload directory if it doesn't exist
+os.makedirs(UPLOAD_DIRECTORY, exist_ok=True)
+
+def save_uploaded_file(uploaded_file):
+    file_path = os.path.join(UPLOAD_DIRECTORY, uploaded_file.name)
+    
+    # Vérifier si le fichier existe déjà et écraser s'il existe
+    # if os.path.exists(file_path):
+    #     st.warning(f"Le fichier {uploaded_file.name} existe déjà. Il sera écrasé.")
+    
+    # with open(file_path, "wb") as f:
+    #     f.write(uploaded_file.getbuffer())
+    
+    # return file_path
+
+def save_uploaded_file(uploaded_file):
+    file_path = os.path.join(UPLOAD_DIRECTORY, uploaded_file.name)
+     # Overwrite existing file if it exists
+    if os.path.exists(file_path):
+        os.remove(file_path)
+    with open(file_path, "wb") as f:
+        f.write(uploaded_file.getbuffer())
+    return file_path
+
 def main():
-
-      # Initialisation de Streamlit
     st.set_page_config(page_title="DataBeez Platform", page_icon=":bee:", layout="wide")
     
-    # Chargement du logo
-    logo_path = os.path.join("/Users/datadeep/Documents/LLMs/Chatbot Databeez/data/", "LogoDataBeez.jpg")
+    st.markdown("<h1 style='text-align: center; color: white;'>Chat with AMMI program</h1>", unsafe_allow_html=True)
     
-
-    st.markdown("<h1 style='text-align: center; color: white;'>Chat With DataBeez Platform LMS</h1>", unsafe_allow_html=True)
-    
-    # Sidebar de l'application
     with st.sidebar:
-        st.title('DataBeez Platform LMS')
-   
-        st.image(logo_path, width=250)
+        st.title('About AMMI Program')
+        st.image(LOGO_PATH, width=250)
+
+        uploaded_file = st.file_uploader("Upload a document", type=["txt", "pdf", "docx"])
     
-    # Chargement des données et préparation de VectorDB
-    file_path = os.path.join(DATA_PATH, "fake_document_calendrier_LMS.txt")
-    
-    file_path = os.path.join(DATA_PATH, "fake_document_calendrier_LMS.txt")
-    
-    # Initialisation du chatbot
-    bot = ChatBot(file_path)
+    if uploaded_file:
+        file_path = save_uploaded_file(uploaded_file)
 
-    # Stockage des messages générés par le LLM
-    if "messages" not in st.session_state:
-        st.session_state.messages = [{"role": "assistant", "content": "Welcome to DataBeez Platform LMS"}]
+        bot = ChatBot(file_path)
 
-    # Affichage des messages de chat
-    for message in st.session_state.messages:
-        with st.chat_message(message["role"]):
-            st.write(message["content"])
+        if "messages" not in st.session_state:
+            st.session_state.messages = [{"role": "assistant", "content": "Welcome to AMMI program"}]
 
-    # Entrée utilisateur avec une clé unique pour la réinitialisation
-    if "input_key" not in st.session_state:
-        st.session_state.input_key = 0
+        for message in st.session_state.messages:
+            with st.chat_message(message["role"]):
+                st.write(message["content"])
 
-    input_text = st.text_input("", key=f"input_{st.session_state.input_key}")
+        if "input_key" not in st.session_state:
+            st.session_state.input_key = 0
 
-    if input_text:
-        st.session_state.messages.append({"role": "user", "content": input_text})
-        with st.chat_message("user"):
-            st.write(input_text)
+        input_text = st.text_input("", key=f"input_{st.session_state.input_key}")
 
-        # Génération d'une nouvelle réponse si le dernier message n'est pas de l'assistant
-        if st.session_state.messages[-1]["role"] == "user":
-            with st.chat_message("assistant"):
-                with st.spinner("..."):
+        if input_text:
+            st.session_state.messages.append({"role": "user", "content": input_text})
+            with st.chat_message("user"):
+                st.write(input_text)
+
+            if st.session_state.messages[-1]["role"] == "user":
+                with st.spinner(""):
                     response = bot.chat(input_text)
                     st.write(response)
-            message = {"role": "assistant", "content": response}
-            st.session_state.messages.append(message)
+                message = {"role": "assistant", "content": response}
+                st.session_state.messages.append(message)
 
-        # Incrementer la clé pour réinitialiser le champ de texte
-        st.session_state.input_key += 1
-        st.experimental_rerun()
+            st.session_state.input_key += 1
+            st.experimental_rerun()
 
-# Appel de la fonction principale pour exécuter l'application
 if __name__ == "__main__":
     main()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# import streamlit as st
+# from ChatBot1.chatbot import ChatBot
+# import os
+# from dotenv import load_dotenv
+
+# load_dotenv()
+
+# DATAPATH = os.getenv("DATAPATH")
+# LOGO_PATH = os.path.join(DATAPATH, "aims-logo.png")
+
+# # Créer le dossier data s'il n'existe pas
+# os.makedirs(DATAPATH, exist_ok=True)
+
+# def main():
+#     st.set_page_config(page_title="DataBeez Platform", page_icon=":bee:", layout="wide")
+    
+#     st.markdown("<h1 style='text-align: center; color: white;'>Chat with AMMI program</h1>", unsafe_allow_html=True)
+    
+#     with st.sidebar:
+#         st.title('About AMMI Programm')
+#         st.image(LOGO_PATH, width=250)
+
+#         uploaded_file = st.file_uploader("Uploader un document", type=["txt"])
+    
+#     if uploaded_file:
+#         file_path = os.path.join("/tmp", uploaded_file.name)
+#         with open(file_path, "wb") as f:
+#             f.write(uploaded_file.getbuffer())
+
+#         bot = ChatBot(file_path)
+
+#         if "messages" not in st.session_state:
+#             st.session_state.messages = [{"role": "assistant", "content": "Welcome to AMMI programm"}]
+
+#         for message in st.session_state.messages:
+#             with st.chat_message(message["role"]):
+#                 st.write(message["content"])
+
+#         if "input_key" not in st.session_state:
+#             st.session_state.input_key = 0
+
+#         input_text = st.text_input("", key=f"input_{st.session_state.input_key}")
+
+#         if input_text:
+#             st.session_state.messages.append({"role": "user", "content": input_text})
+#             with st.chat_message("user"):
+#                 st.write(input_text)
+
+#             if st.session_state.messages[-1]["role"] == "user":
+#                 with st.chat_message("assistant"):
+#                     with st.spinner(""):
+#                         response = bot.chat(input_text)
+#                         st.write(response)
+#                 message = {"role": "assistant", "content": response}
+#                 st.session_state.messages.append(message)
+
+#             st.session_state.input_key += 1
+#             st.experimental_rerun()
+
+# if __name__ == "__main__":
+#     main()

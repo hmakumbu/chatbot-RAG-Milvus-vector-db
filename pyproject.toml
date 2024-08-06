@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pymilvus"
+version = "2.4.3"
+description = "pymilvus"
+authors = ["hmakumbu <hmboko@aimsammi.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+langchain = "^0.2.12"
+langchain-community = "^0.2.11"
+sentence-transformers = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

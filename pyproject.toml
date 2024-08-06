@@ -10,6 +10,7 @@ python = "3.11.5"
 langchain = "^0.2.12"
 langchain-community = "^0.2.11"
 sentence-transformers = "^3.0.1"
+streamlit = "^1.37.1"
 
 
 [build-system]

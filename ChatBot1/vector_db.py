@@ -1,11 +1,11 @@
 from pymilvus import Collection, CollectionSchema, FieldSchema, DataType, connections, utility
 from sentence_transformers import SentenceTransformer
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 
-load_dotenv()
-milvus_host = os.getenv("MILVUS_HOST", "localhost")
-milvus_port = int(os.getenv("MILVUS_PORT", 19530))
+#load_dotenv()
+milvus_host = "localhost"
+milvus_port = 19530
 connections.connect("default", host=milvus_host, port=milvus_port)
 
 # Check the model output dimension

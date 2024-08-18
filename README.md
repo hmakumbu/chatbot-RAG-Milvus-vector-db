@@ -12,10 +12,12 @@ The impact of this project has been significant. It has streamlined the process 
 - Poetry for dependency management
 
 ## Installation
-Clone the repository and install requirement.txt:
+Clone the repository and install dependencies using Poetry:
 
 ```bash
-pip install requirement.txt
+git clone <your-repository>
+cd <your-repository>
+poetry install
 ```
 
 For Docker and Milvus installation, refer to this [link](https://milvus.io/docs/install_standalone-docker.md)
